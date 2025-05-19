@@ -14,6 +14,12 @@ const About = () => {
 				Yale University with a B.S. in Computer Science, where I worked in the <Url link="https://clay.yale.edu/" external={true}>computational linguistics</Url> lab. I am originally from Morgantown, West Virginia.
 			</Text>
 
+			<Text type="sub-title">CSE 40657</Text>
+
+			<Text>
+				The Fall 2025 offering of the NLP course will follow a similar structure and content to the Fall 2023 iteration, with some updates and variations. For an overview of the course, please refer to the <Url link="https://www3.nd.edu/~dchiang/teaching/nlp/2023/" external={true}>course homepage</Url>, and check back for updates as the term approaches. Please note that the required background and prerequisites may have changed. I’m happy to answer any questions about the class!
+			</Text> 
+
 			<Text type="sub-title">Education</Text>
 
 			<HeadingDate title="University of Notre Dame, South Bend, IN" date="August 2021 - Present" />
