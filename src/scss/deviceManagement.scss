@@ -22,8 +22,7 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: start;
-	height: 52px;
-	padding: 9px;
+	@include layoutManagement.padding-10;
 	@include layoutManagement.width-12;
 	@include colorManagement.background-2;
 	overflow: visible;
@@ -100,7 +99,7 @@ ul {
 
 .label-container {
 	@include layoutManagement.center-content-y;
-	@include layoutManagement.width-3;
+	@include layoutManagement.width-12;
 	@include layoutManagement.padding-5;
 	background-color: rgba(240, 128, 128, .5);
 	border-radius: 10px;
@@ -155,7 +154,7 @@ ul {
 .allow-scroll {
 	display: block;
 	overflow-y: auto;
-	height: calc(100% - 52px - 52px);
+	height: calc(100% - 97px);
 }
 
 .hide-small {
@@ -163,7 +162,6 @@ ul {
 }
 
 .footer {
-	height: 52px;
 	@include layoutManagement.padding-10;
 	@include colorManagement.background-2;
 	@include layoutManagement.center-content;
@@ -182,10 +180,22 @@ ul {
 	.nav-item {
 		@include layoutManagement.width-4;
 	}
+
+	.label-container {
+		@include layoutManagement.width-7;
+	}
+
+	.allow-scroll {
+	height: calc(100% - 100px);
+}
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+	.label-container {
+		@include layoutManagement.width-5;
+	}
+
 	.nav-item {
 		@include layoutManagement.width-2;
 	}
@@ -259,10 +269,22 @@ ul {
 	#root {
 		@include textManagement.font-size-3;
 	}
+
+	.label-container {
+		@include layoutManagement.width-6;
+	}
 }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+	.label-container {
+		@include layoutManagement.width-5;
+	}
+}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { }
+@media (min-width: 1400px) { 
+	.label-container {
+		@include layoutManagement.width-4;
+	}
+}
