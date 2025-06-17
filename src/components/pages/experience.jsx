@@ -42,7 +42,7 @@ const Experience = () => {
 			<article>
 				<Text type="sub-title">Teaching Experience</Text>
 
-				<HeadingDate title="Instructor of Record for NLP (Norte Dame)" date="Fall 2025" />
+				<HeadingDate title="Instructor of Record for NLP (Notre Dame)" date="Fall 2025" />
 				<ul>
 					<li>Sole instructor for CSE 40657.</li>
 				</ul>
