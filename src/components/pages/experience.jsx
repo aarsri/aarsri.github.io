@@ -98,7 +98,7 @@ const Experience = () => {
 					<li>Served as the program chair for the 2025 Midwest Speech and Language Days (MSLD) conference and took on additional organizational duties.</li>
 				</ul>
 
-				<HeadingDate title="Graduate Student Representative, CSE Committee on Inclusive Excellence and Engagement (Notre Dame)" date="September 2024 - Present" />
+				<HeadingDate title="Graduate Student Representative, CSE Committee on Inclusive Excellence and Engagement (Notre Dame)" date="September 2024 - May 2025" />
 				<ul>
 					<li>Organized activities to improve CSE graduate students’ engagement and sense of belonging.</li>
 				</ul>
@@ -158,7 +158,7 @@ const Experience = () => {
 					<li>Presented my project to the top executives at the end of the internship.</li>
 				</ul>
 
-				<HeadingDate title="Student Coder, Linguistics Department (Yale)" date="Summer 2019" />
+				<HeadingDate title="Coder, Linguistics Department (Yale)" date="Summer 2019" />
 				<ul>
 					<li>Work acknowledged in the following publication: Kotek, Hadas, et al. &ldquo;Gender representation in linguistic example sentences.&rdquo;
 						<em>Proceedings of the Linguistic Society of America</em> 5.1 (2020): 514-528. <Url file={true} link="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/download/4723/4342">Available here</Url>.
