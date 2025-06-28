@@ -93,27 +93,31 @@ const Experience = () => {
 			<article>
 				<Text type="sub-title">Service and Outreach</Text>
 
-				<HeadingDate title="Program Chair and Organizer, MSLD 2025" date="November 2024 - April 2025" />
+        <Text type="sub-heading">Conference</Text>
+
+        <HeadingDate title="Program Chair and Organizer, MSLD 2025" date="November 2024 - April 2025" />
 				<ul>
 					<li>Served as the program chair for the 2025 Midwest Speech and Language Days (MSLD) conference and took on additional organizational duties.</li>
 				</ul>
-
-				<HeadingDate title="Graduate Student Representative, CSE Committee on Inclusive Excellence and Engagement (Notre Dame)" date="September 2024 - May 2025" />
-				<ul>
-					<li>Organized activities to improve CSE graduate students’ engagement and sense of belonging.</li>
-				</ul>
-
-				<HeadingDate title="Member, Programming Committee (VarDial)" date="January 2024 - Present" />
+        
+        <HeadingDate title="Member, Programming Committee (VarDial)" date="January 2024 - Present" />
 				<ul>
 					<li>Member of the programming committee of the Workshop on NLP for Similar Languages, Varieties, and Dialects (VarDial).</li>
 				</ul>
 
-				<HeadingDate title="Department Representative, Graduate Student Government (Notre Dame)" date="August 2023 - May 2025" />
+        <Text type="sub-heading">Department</Text>
+
+        <HeadingDate title="Graduate Student Representative, CSE Committee on Inclusive Excellence and Engagement (Notre Dame)" date="September 2024 - May 2025" />
+				<ul>
+					<li>Organized activities to improve CSE graduate students’ engagement and sense of belonging.</li>
+				</ul>
+
+        <HeadingDate title="Department Representative, Graduate Student Government (Notre Dame)" date="August 2023 - May 2025" />
 				<ul>
 					<li>Discussed department- and university-level graduate student concerns and policies.</li>
 				</ul>
-
-				<HeadingDate title="Organizer, CSE Prospective PhD Student Day (Notre Dame)" date="February 2024" />
+        
+        <HeadingDate title="Organizer, CSE Prospective PhD Student Day (Notre Dame)" date="February 2024" />
 				<ul>
 					<li>Helped organize prospective student visits and on-campus activities.</li>
 				</ul>
@@ -129,6 +133,8 @@ const Experience = () => {
 						facilitating travel arrangements, arranging pre-seminar lunches, and communicating with seminar
 						attendees.</li>
 				</ul>
+
+        <Text type="sub-heading">community</Text>
 
 				<HeadingDate title="Volunteer, St. Margaret’s House (South Bend, IN)" date="August 2022 - Present" />
 				<ul>
