@@ -17,14 +17,7 @@ const About = () => {
 			<Text type="sub-title">Fall 2025: CSE 40657</Text>
 
 			<Text>
-				The Fall 2025 offering of the NLP course will follow a similar structure and content to the Fall 2023 iteration, with some updates and variations. For an overview of the course, please refer to the <Url link="https://www3.nd.edu/~dchiang/teaching/nlp/2023/" external={true}>course homepage</Url>, and check back for updates as the term approaches. 
-			</Text>
-
-			<br />
-
-			<Text>
-				Please note that the required background and prerequisites may have changed. I’m happy to
-				answer any questions about the class!
+				Please refer to the <Url link="https://aarsri.github.io/cse40657/" external={true}>course homepage</Url> for course information and materials, and check back for updates as the term approaches. 
 			</Text>
 
 			<Text type="sub-title">Education</Text>
