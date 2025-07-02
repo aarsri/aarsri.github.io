@@ -134,7 +134,7 @@ const Experience = () => {
 						attendees.</li>
 				</ul>
 
-        <Text type="sub-heading">community</Text>
+        <Text type="sub-heading">Community</Text>
 
 				<HeadingDate title="Volunteer, St. Margaret’s House (South Bend, IN)" date="August 2022 - Present" />
 				<ul>
