@@ -45,6 +45,8 @@ const Experience = () => {
 				<HeadingDate title="Instructor of Record for NLP (Notre Dame)" date="Fall 2025" />
 				<ul>
 					<li>Sole instructor for CSE 40657.</li>
+					<li>Designed and developed course materials (e.g., syllabus, slides, assignments).</li>
+					<li>Conducted lectures three times per week and held weekly office hours.</li>
 				</ul>
 
 				<HeadingDate title="Outstanding Graduate Student Teacher Award (Notre Dame)" date="March 2024" />
