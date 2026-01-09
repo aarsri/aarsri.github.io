@@ -14,12 +14,6 @@ const About = () => {
 				Yale University with a B.S. in Computer Science, where I worked in the <Url link="https://clay.yale.edu/" external={true}>computational linguistics</Url> lab. I am originally from Morgantown, West Virginia.
 			</Text>
 
-			<Text type="sub-title">Fall 2025: CSE 40657</Text>
-
-			<Text>
-				Please refer to the <Url link="https://aarsri.github.io/cse40657/" external={true}>course homepage</Url> for course information and materials, and check back for updates as the term approaches. 
-			</Text>
-
 			<Text type="sub-title">Education</Text>
 
 			<HeadingDate title="University of Notre Dame, South Bend, IN" date="August 2021 - Present" />
