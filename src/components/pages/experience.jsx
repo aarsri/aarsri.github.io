@@ -47,6 +47,7 @@ const Experience = () => {
 					<li>Sole instructor for CSE 40657.</li>
 					<li>Designed and developed course materials (e.g., syllabus, slides, assignments).</li>
 					<li>Conducted lectures three times per week and held weekly office hours.</li>
+					<li>Composite median score: 5.0 (5-point scale).</li>
 				</ul>
 
 				<HeadingDate title="Outstanding Graduate Student Teacher Award (Notre Dame)" date="March 2024" />
