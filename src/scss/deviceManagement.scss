@@ -101,7 +101,7 @@ ul {
 	@include layoutManagement.center-content-y;
 	@include layoutManagement.width-12;
 	@include layoutManagement.padding-5;
-	background-color: rgba(240, 128, 128, .5);
+	background-color: colorManagement.$clr-3;
 	border-radius: 10px;
 }
 
@@ -119,7 +119,7 @@ ul {
 	display: flex;
 	@include layoutManagement.width-12;
 	@include layoutManagement.padding-10;
-	color: colorManagement.$clr-2;
+	color: colorManagement.$link-clr;
 	border-top: 1.5px colorManagement.$clr-3 solid;
 	font-weight: 700;
 }
@@ -134,7 +134,7 @@ ul {
 }
 
 .normal-link {
-	color: colorManagement.$clr-2;
+	color: colorManagement.$link-clr;
 	font-weight: 700;
 }
 
