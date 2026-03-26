@@ -42,9 +42,14 @@ const Experience = () => {
 			<article>
 				<Text type="sub-title">Teaching Experience</Text>
 
+				<HeadingDate title="Outstanding Graduate Student Teacher Award (Notre Dame)" date="March 2026" />
+				<ul>
+					<li>Awarded for teaching Natural Language Processing (Fall 2025) by the Kaneb Center for Teaching Excellence.</li>
+				</ul>
+
 				<HeadingDate title="Instructor of Record for NLP (Notre Dame)" date="Fall 2025" />
 				<ul>
-					<li>Sole instructor for CSE 40657.</li>
+					<li>Sole instructor for <Url file={true} link="https://aarsri.github.io/cse40657/">CSE 40657</Url>.</li>
 					<li>Designed and developed course materials (e.g., syllabus, slides, assignments).</li>
 					<li>Conducted lectures three times per week and held weekly office hours.</li>
 					<li>Composite median score: 5.0 (5-point scale).</li>
@@ -57,7 +62,7 @@ const Experience = () => {
 
 				<HeadingDate title="Guest Lecturer for NLP (Notre Dame)" date="Fall 2023" />
 				<ul>
-					<li>Gave three full-length lectures.</li>
+					<li>Designed and delivered three 50-minute lectures independently.</li>
 				</ul>
 
 				<HeadingDate title="Graduate Teaching Assistant for NLP (Notre Dame)" date="Fall 2021, Fall 2023" />
@@ -103,7 +108,12 @@ const Experience = () => {
 					<li>Served as the program chair for the 2025 Midwest Speech and Language Days (MSLD) conference and took on additional organizational duties.</li>
 				</ul>
         
-        <HeadingDate title="Member, Programming Committee (VarDial)" date="January 2024 - Present" />
+        <HeadingDate title="Member, Programming Committee (DialRes)" date="March 2026 - Present" />
+				<ul>
+					<li>Member of the programming committee of the Workshop on Dialects in NLP -- A Resource Perspective (DialRes).</li>
+				</ul>
+				
+		<HeadingDate title="Member, Programming Committee (VarDial)" date="January 2024 - Present" />
 				<ul>
 					<li>Member of the programming committee of the Workshop on NLP for Similar Languages, Varieties, and Dialects (VarDial).</li>
 				</ul>
