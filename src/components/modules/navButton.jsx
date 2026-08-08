@@ -4,11 +4,19 @@ import Text from "./text";
 
 const NavButton = ({ title, url = "/", icon, active = false}) => {
 	const classes = active ? "nav-item nav-active" : "nav-item"
-	return (
-			<Link className={classes} to={url}>
-				{typeof icon !== 'undefined' ? <FontAwesomeIcon className='nav-icon' icon={icon} beat={false}/> : ''}
-				<Text type="heading" classOverride='nav-heading'>{title}</Text>
-			</Link>
+
+	if (title !== 'CV') return (
+		<Link className={classes} to={url}>
+			{typeof icon !== 'undefined' ? <FontAwesomeIcon className='nav-icon' icon={icon} beat={false}/> : ''}
+			<Text type="heading" classOverride='nav-heading'>{title}</Text>
+		</Link>
+	);
+
+	else return (
+		<a className={classes} href={url} target="_blank" rel="noopener noreferrer">
+			{typeof icon !== 'undefined' ? <FontAwesomeIcon className='nav-icon' icon={icon} beat={false}/> : ''}
+			<Text type="heading" classOverride='nav-heading'>{title}</Text>
+		</a>
 	);
 }
 
