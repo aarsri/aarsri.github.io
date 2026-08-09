@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import NavButton from '../modules/navButton';
 
-import cvFile from './src/assets/pdfs/CV_for_website.pdf'
+import cvFile from './../../assets/pdfs/CV_for_website.pdf'
 
 const Navbar = () => {
 	const location = useLocation();
