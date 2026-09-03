@@ -149,7 +149,7 @@ const Experience = () => {
 
         <Text type="sub-heading">Community</Text>
 
-				<HeadingDate title="Volunteer, St. Margaret’s House (South Bend, IN)" date="August 2022 - Present" />
+				<HeadingDate title="Volunteer, St. Margaret’s House (South Bend, IN)" date="August 2022 - August 2025" />
 				<ul>
 					<li>Volunteer at St. Margaret’s House for women and children.</li>
 				</ul>
